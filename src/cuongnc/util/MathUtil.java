@@ -17,7 +17,7 @@ public class MathUtil {
     public static void main(String[] args) {
         long expected = 120;
         
-        long actual = MathUtility.getFactorial(6);
+        long actual = MathUtility.getFactorial(5);
         System.out.println("5! expected: "+expected);
         System.out.println("5! actual: "+actual);
         System.out.println("6!: 720, actual: "+MathUtility.getFactorial(6));
