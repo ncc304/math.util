@@ -45,11 +45,11 @@ public class MathUtilityTest {
             assertEquals(120, MathUtility.getFactorial(5));
             assertEquals(24, MathUtility.getFactorial(4));
             assertEquals(720, MathUtility.getFactorial(6));
-            assertEquals(0, MathUtility.getFactorial(0));
+            assertEquals(1, MathUtility.getFactorial(0));
             // vietsub: hãy tính giùm t 5! coi nó có là 120 ko ?
             // có thì báo màu xanh, ko thì đỏ
             
         }
-    // Tui sửa code thành đỏ để xem trên github có màu đỏ k
+    // Tui sửa code thành xanh để xem trên github có màu xanh k
     
 }
