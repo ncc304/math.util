@@ -16,14 +16,14 @@ public class MathUtility {
     
     public static long getFactorial(int n){
         if(n < 0 || n > 20) 
-        // throws
+            throw new IllegalArgumentException("n must be 0 ... 20");
         if(n == 0 || n == 1)
             return 1; // đặc biệt, return luôn
         // viết else ở đây, trừ điểm
         // mặc nhiện CPU đến đc đây là hiểu rằng n = 2->20
         long result = 1;
         for(int i = 2; i <= n; i++){
-            result += i;
+            result *= i;
         }
         return result;
     }

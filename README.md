@@ -1,4 +1,4 @@
-# Welcome to MathUtil repository (thẻ <h1> html)
+# Welcome to MathUtil repository
 
 ## You will find in this repo:
 * Source code of a Math Utility aka Math Class in JDK
