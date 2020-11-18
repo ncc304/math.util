@@ -27,7 +27,7 @@ public class MathUtil {
         // tham so > 20, tham so < 0
         System.out.println("expected: illigalArguamentException" +MathUtility.getFactorial(-5));
         
-        System.out.println("hi");
+        System.out.println("I want to see the RED or GREEN !!!");
     }
 }
 // Muốn kết luận hàm ngon, phải test các trường hợp sài hàm
